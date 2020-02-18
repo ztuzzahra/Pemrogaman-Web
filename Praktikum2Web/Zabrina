@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my blog</title>
+	<style type="text/css">
+	A: link{text-decoration: none}
+	A: visited {text-decoration: none}
+	A: active {text-decoration: none}
+	A: hover {font-weight: none; color: red; background-color: blue;}
+	</style>
+</head>
+<body>
+	<table border="5">
+	<tr>
+		<td width="200"><a href="gukguk.jpeg"> buka ini   </a></td>
+	</tr>	
+	<tr>
+		<td width="200"><a href="http://localhost/Praktikum2Web/Pemetaan%20dengan%20Padding%20.html"> buka ini   </a></td>
+	</tr>
+	<tr>
+		<td width="200"><a href="http://localhost/Praktikum2Web/Pemetaan%20dengan%20Padding%20.html"> buka ini   </a></td>
+	</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pengaturan font contoh 1</title>
+	<style type="text/css">
+		p.italic {font-size: 200%; font-style: italic;}
+		p.n ormal {font-family: verdana; font-style: normal;}
+		p.o blique {font-style: oblique;}
+	</style>
+</head>
+<body>
+<p class="italic"> menggunakan style italic </p>
+<p class="normal"> menggunakan style normal </p>
+<p class="oblique"> menggunakan style oblique </p>
+</body>
+</html>

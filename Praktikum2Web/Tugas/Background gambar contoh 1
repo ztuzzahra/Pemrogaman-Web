@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Menggunakan beground gambar</title>
+	<style type="text/css">
+		body{ background-image: url("hai.JPEG"); background-repeat: repeat-x;background-repeat: 
+		}
+	</style>
+</head>
+<body>
+Background Berulang Pada sumbu x
+</body>
+</html>

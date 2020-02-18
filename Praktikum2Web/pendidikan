@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Education </title>
+	<style type="text/css">
+		body{
+			background-image: url(17545.jpg);
+			font-family: arial;
+			color: black;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="pendidikanefek.css">
+</head>
+<body>
+<center> <h1> Histori Pendidikan </h1>
+	<br>
+	<br>
+	<br>
+	<center> <table width="500" border="1" cellpadding="5" cellspacing="2">
+	<tr>
+	<th width="112"> Tahun Pendidikan </th>
+	<th width="91"> Jenjang </th>	
+	<th width="91"> Tempat </th>
+	</tr>
+	<tr>
+	<td> 2006 - 2007 </td>
+	<td> TK (Taman kanak - kanak) </td>	
+	<td> TK babusalam</td>
+	</tr>
+	<tr>
+	<td> 2007 - 2013 </td>
+	<td> SD (Sekolah Dasar) </td>	
+	<td> SDN Pepelegi 1 </td>
+	</tr>
+	<tr>
+	<td> 2013 - 2016 </td>
+	<td> SMP (Sekolah menengah Pertama) </td>	
+	<td> SMPN 1 Sedati </td>
+	</tr>
+	<tr>
+	<td> 2016 - 2018 </td>
+	<td> SMA (Sekolah Menengah Atas) </td>
+	<td> SMAN 2 TUBAN </td>
+	</tr>
+	<tr>
+	<td> 2018 - Now </td>
+	<td> Kuliah </td>
+	<td> UPN "Veteran" Jawa Timur</td>
+	</tr>
+	</table>
+</body>
+</html>

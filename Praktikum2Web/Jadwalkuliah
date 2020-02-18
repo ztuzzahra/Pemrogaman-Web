@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JadwalKuliah</title>
+	<style type="text/css">
+		body{
+			background-image: url("69.jpg");
+			font-family: arial;
+			color: black;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="efektabel.css">
+</head>
+<body>
+	<center> <h1> Jadwal Kuliah </h1>
+	<table width="500" border="2" cellpadding="5" cellspacing="2"> 
+	<tr>
+		<th width="hr"> Hari</th>
+		<th width="jm"> Jam </th>
+		<th width="MK"> MataKuliah</th>
+		<th width="rg"> Ruang</th>
+	</tr>
+	<tr>
+		<td> Senin </td>
+		<td> 09.30 - 12.00 </td>
+		<td> Pemrogaman Dekstop </td>
+		<td> Lab. MSI</td>
+	</tr>	
+	<tr>
+		<td> Senin </td>
+		<td> 13.00 - 15.30 </td>
+		<td> bhs. Indonesia </td>
+		<td> R. 304 </td>
+	</tr>
+	<tr>
+		<td> Selasa </td>
+		<td> 09.30 - 12.00 </td>
+		<td> KWU </td>
+		<td> 304 </td> 
+	</tr>
+	<tr>
+		<td> Rabu </td>
+		<td> 07.00-09.30 </td>
+		<td> Pemrogaman Web </td>
+		<td> Lab. MSI </td>
+	</tr>
+	<tr>
+		<td> Rabu</td>
+		<td> 09.30 - 12.00 </td>
+		<td> ADT</td>
+		<td> 108</td>
+	</tr>
+	<tr> 
+		<td> Rabu </td>
+		<td> 13.00-15.30</td>
+		<td> DBA</td>
+		<td> Lab. MSI </td>
+	</tr>
+	<tr>
+		<td>Kamis</td>
+		<td> 09.30 -12.00</td>
+		<td> Matkom</td>
+		<td> 107</td>
+	</tr>
+	<tr>
+		<td> Kamis</td>
+		<td> 13.00-15,30</td>
+		<td> Kepemimpinan</td>
+		<td> 108 </td>
+	</tr>
+	</table>
+</body>
+</html>

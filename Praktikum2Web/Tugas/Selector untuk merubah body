@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Selector</title>
+<style type="text/css">
+body{
+	font-family: geneva, arial;
+	font-size: 20px;
+	color:yellow;
+	background-color: blue;
+}
+</style>
+</head>
+<body>
+<h1> Halaman Effect CSS</h1>
+</body>
+</html>
+

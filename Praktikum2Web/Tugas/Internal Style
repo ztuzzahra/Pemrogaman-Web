@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistem informasi</title>
+	<style type="text/css">
+		body{
+			color :White;
+			background:red;
+			font-family: arial;
+		}
+	</style>
+</head>
+<body>
+	<h1> Selamat Datang</h1>
+	<h1> UPN "Veteran" Jawa Timur</h1>
+	<p> Sistem Informasi UPN Veteran Jawa Timur</p>
+</body>
+</html>

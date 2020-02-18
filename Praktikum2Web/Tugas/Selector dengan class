@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selector dengan class </title>
+	<style type="text/css">
+		.left{text-align: center}
+	</style>
+</head>
+<body>
+<h2 class="left"> class heading 2</h2>
+<h1 class="left">  class paragraph </p>
+</body>
+</html>

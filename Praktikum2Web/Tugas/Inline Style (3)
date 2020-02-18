@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sistem Informasi</title>
+</head>
+<body style="color : yellow; 
+			 background : blue;
+			 font-family: arial;">
+	<h1> Selamat Datang di Website </h1>
+	<h1> Sistem Informasi UPN "Veteran" Jatim</h1>
+	<p> Materi 2 Pemrogaman Web: HTML & CSS </p>
+</body>
+</html>

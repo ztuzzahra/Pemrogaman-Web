@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Format text contoh 2</title>
+	<style type="text/css">
+		h1 {text-align: center}
+		h2 {text-align: left}
+		h3 {text-align: right}
+	</style>
+</head>
+<body>
+<h1> Header1, Di tengah </h1>
+<h2> Header2, Di Kiri   </h2>
+<h3> Header3, Di kanan  </h3>
+</body>
+</html>

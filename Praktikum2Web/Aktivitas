@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Aktivitas </title>
+	<style type="text/css">
+		body{
+			background-image: url("69.jpg");
+			font-family: comic sains; 
+			color: black;
+		}
+	</style>
+</head>
+<body>
+Zabrina Tuzzahra
+<br>
+<br>
+<br>
+Kegiatan / Organisasi yang pernah diikuti :
+<ol>
+<li> Musik :
+<ul>
+<li> Paduan Suara</li>
+<li> Band </li>
+<li> Keroncong</li>
+</ul>
+</li>
+<li> Organisasi :
+<ul>
+<li> Organisasi Robot SMADA </li>
+<li> Osis </li>	
+</ul>	
+</li>
+<li> Kepanitiaan : 
+<ul>
+<li> ISMEE</li>
+<li> NOF </li>
+<li> PIALA REKTOR </li>
+</ul>
+</li>
+</body>
+</html>

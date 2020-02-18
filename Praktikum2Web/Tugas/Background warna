@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Menggunakan beground warna </title>
+<style type="text/css">
+	body{background-color: yellow}
+</style>
+</head>
+<body>
+<h1>halaman ini d buat dengan warna kuning </h1>
+
+</body>
+</html>

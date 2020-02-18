@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pengaturan Table spec </title>
+	<link rel="stylesheet" type="text/css" href="efektabel.css">
+</head>
+<body>
+	<table width="500" border="1" cellpadding="6" cellspacing="2">
+	<tr>
+		<th width="80"> Home </th>
+		<th width="80"> Adrress</th>
+		<th width="80"> blog </th>
+		<th width="80"> nama </th>
+	</tr>
+	<tr>
+		<td>CInt-1</td>
+		<td> IP 4 1,8 GHZ</td>
+		<td> 10GB</td>
+		<td> Redhat Linux</td>
+	</tr>
+	<tr>
+		<td>CInt-2</td>
+		<td> IP 4 GHZ C</td>
+		<td> 6GB</td>
+		<td> M Linux</td>
+	</tr>
+	<tr>
+		<td>CInt-3</td>
+		<td> Xp 2000+ </td>
+		<td> 20GB</td>
+		<td> Windows</td>
+	</tr>
+	</table>
+</body>
+</html>

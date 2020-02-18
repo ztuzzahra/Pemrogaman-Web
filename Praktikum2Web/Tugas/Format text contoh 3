@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Format Text Contoh 3</title>
+	<style type="text/css">
+		em {text-decoration: overline}
+		h2 {text-decoration: blink}
+		h3 {text-decoration: underline}
+		a  {text-decoration: none}
+	</style>
+</head>
+<body>
+<em> Bentuk Overline</em>
+<h2> Header 2, Bentuk line - Through</h2>
+<h3> Header 3, bnetuk Underline</h3>
+<p> <a href="http://sisfo.upnjatim.ac.id"> Penggunaan dalam Link, Nilai None </a></p>
+</body>
+</html>

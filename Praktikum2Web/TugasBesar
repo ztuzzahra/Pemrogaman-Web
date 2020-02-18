@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZabrinaTuzzahra</title>
+	<style type="text/css">
+		body{ 
+		background-image: url("247.jpg");
+		color: white;
+		font-family: arial; 
+		}
+	</style>
+	<style type="text/css">
+		.left {text-align: center}
+	</style>
+	<style type="text/css">
+		<style type="text/css">
+	A: link{text-decoration: none;}
+	A: visited {text-decoration: none}
+	A: active {text-decoration: none}
+	A: hover {font-weight: none; color: red; background-color: white;}
+	</style>
+	
+</head>
+<body>
+<left><p> Zabrina Tuzzahra</p>
+<h1 class="left"> Welcome !!! </h1>
+<center>
+	<br>
+	<br>
+	<table border="5"> 
+	<tr>
+		<td width="175"><a href="http://localhost/Praktikum2Web/Home"> Home </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="http://localhost/Praktikum2Web/pendidikan"> Pendidikan </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="http://localhost/Praktikum2Web/Jadwalkuliah"> Jadwal Kuliah </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="http://localhost/Praktikum2Web/Aktivitas"> Aktivitas </a></td>
+	</tr>
+	</table>
+
+</body>
+</html>

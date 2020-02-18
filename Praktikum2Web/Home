@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyBiodata</title>
+	<style type="text/css">
+		body{
+			color: black;
+			background-image:url(68.jpg);
+			font-family: arial;
+		}
+	</style>
+</head>
+<body>
+<center> <h1> My Biodata </h1>
+<p> Nama : Zabrina Tuzzahra </p>
+<p> TTL : Surabay, 26 Mei 2000 </p>
+<p> Alamat : Sidoarjo </p>
+<p> Jurursan : Sistem Informasi </p>
+</body>
+</html>

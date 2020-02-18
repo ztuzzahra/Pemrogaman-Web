@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pengaturan Link pada background </title>
+	<style type="text/css">
+	A: link{text-decoration: none}
+	A: visited {text-decoration: none}
+	A: active {text-decoration: none}
+	A: hover {font-weight: none; color: black; background-color: red;}
+	</style>
+</head>
+<body>
+	<table border="1">
+	<tr>
+		<td width="175"><a href="#"> Home </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="#"> Pendidikan </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="#"> Jadwal Kuliah </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="#"> Aktivitas </a></td>
+	</tr>
+	<tr>
+		<td width="175"><a href="#"> Social Media </a></td>
+	</tr>
+	</table>
+</body>
+</html>
