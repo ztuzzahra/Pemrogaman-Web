@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>konfigurasi button</title>
+</head>
+<body>
+	<form> 
+		<input type ="submit" value="kirim" name ="submit">
+		<input type ="reset" value="ulangi" name ="reset">
+		<input type ="button" value="batal" name ="button">
+		<input type ="image" value="gambar" img src = "image.jfif" width ="195" height="90">
+	</form>
+</body>
+</html>

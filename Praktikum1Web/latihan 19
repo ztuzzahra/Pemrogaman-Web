@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Membuat Text Area</title>
+</head>
+<body>
+	Deskripsi Diri 
+	<br>
+	<textarea name ="deskripsi" cols="45" align ="center">Tuliskan singkat tentang deskripsi diri anda 
+	</textarea>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TugasProgweb</title>
+</head>
+<h1> Form HTML </h1>
+<body>
+Name   :  <input type = "text" name = "nama" > 
+<br>
+<br>
+Gender : <input type = "radio" name = "Gender" value = "man">Man 
+		 <input type = "radio" name = "Gender" value = "Woman">Woman 
+<br>
+<br>
+Address: <input type = "text" name ="Address"> 
+<br>
+<br>
+Country: <select name = "Country"> 
+			<option value = "ii"> Indonesia </option>
+			<option value = "ch"> China 	</option>
+			<option value = "Th"> Thailand  </option>
+			<option value = "As"> Australia </option>
+</select>
+<br>
+<br> 
+Email   : <input type = "text" name = "Email" >
+<br>
+<br> 
+Photo   : <input type = "file" name = "upload" value ="" width="200"/>
+<br>
+<br>
+Comment : <textarea name ="Comment" cols="90" rows = "15" align ="center"> </textarea>
+		  <input type = "submit" name = "submit" value = "submit">
+<br>
+<br> 
+<center><h4> Form Registrasi</h4> 
+</body>
+</html>

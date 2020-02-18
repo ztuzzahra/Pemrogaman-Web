@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Praktikum1 Pemrogaman Web</title>
+</head>
+<body> 
+<h1> Selamat Datang Di Website Kami! </h1>
+<h2> ini adalah Tutorial Pemrogaman Web </h2>
+<h3> Praktikum Pembuatan Web </h3>
+<p> <a href="https://www.upnjatim.ac.id/en/"> SISTEM INFROMASI UPN JAWA TIMUR </a> </span> link for your success way </p>
+
+<img src="image.JFIF" width="180" height="200" alt="photo"/>
+
+<select name = "My Lab">
+	<option value ='CC'>Lab. Praktikum Computer Vision</option>
+	<option value ='SI'>Lab. Sistem Informasi></option>
+	<option value ='CAI'>Lab. Computing & AI</option>
+</select>
+<br>
+<br>
+<br>
+
+<input type="file" name="upload" value="" width="200"/>
+<br>
+<br>
+Table 
+<table border="1" width="10">
+<thead>
+<tr>
+<th>NIM</th>
+<th>Mahasiswa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td>
+<td>zab R</td>	
+</tr>	
+<tr>
+<td>124</td>
+<td>ruri</td>
+</tr>
+</tbody>
+</table>
+
+bidang minat : 
+<ol>
+<li>Sistem informasi 
+<ul>
+<li>Data Warehousing</li>
+<li>Enterprise Architecture</li>
+</ul>
+</li>
+<li>multimedia
+<ul>
+<li>Komputer Sains</li>
+<li>Machinema</li>
+</ul>
+</li>
+</ol>
+

@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Input Pasword</title>
+</head>
+<body>
+	Password : <input type = "password" name = "Nama" size ="11" maxlength="9">
+</body>
+</html>

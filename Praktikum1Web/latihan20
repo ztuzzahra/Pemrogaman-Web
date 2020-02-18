@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MENGGUNAKAN MENU DROPDOWN</title>
+</head>
+<body>
+	<img scr ="image.jfif" align="right">
+	</img>
+	<br>
+	Silahkan pilih Orientasi mimat: 
+	<br>
+	<select name ="orientasi minat"> 
+		<option value ="dg"> Design grafis</option>
+		<option value ="pj"> program java</option>
+		<option value ="sa"> sistem analis</option>
+		<option value ="ds"> dagelan saja</option>
+	</select>
+	<br>
+	<br>
+<select name ="orientasi minat"Multiple> 
+		<option value ="dg"> Design grafis</option>
+		<option value ="pj"> program java</option>
+		<option value ="sa"> sistem analis</option>
+		<option value ="ds"> dagelan saja</option>	
+		<option value ="sa"> sistem analis</option>
+		<option value ="ds"> dagelan saja</option>
+	</select>
+</body>
+</html>

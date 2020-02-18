@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penggunaan Check box</title>
+</head>
+<body>
+	Sebutkan Hobi Anda, Boleh dari satu : 
+	<br>
+	<input type ="checkbox" name="hobi1" value="Menonton">Menonton
+	<br>
+	<input type ="checkbox" name="hobi2" value="nyanyi">nyanyi
+	<br>
+	<input type ="checkbox" name="hobi3" value="riding">riding
+	<br>
+	<input type ="checkbox" name="hobi4" value="tidur">Mtidur
+	<br>
+</body>
+</html>

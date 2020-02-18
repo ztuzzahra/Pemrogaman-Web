@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menyisipkan Elemen Berupa Teks</title>
+</head>
+<body>
+	<font type=arial black font size ="10"> Data Diri </font>
+	<br></br>
+	<font ty =arial size="6">
+	Nama : <input type = "text" name = "lala">
+	<br>
+	<br>
+	Nim  : <input type = "text" name="nim" value ="" maxlength="9" size="9">
+    </font>
+</body>
+</html>
