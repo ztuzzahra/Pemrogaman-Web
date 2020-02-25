@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contoh Program Java Script</title>
+</head>
+<script language="Javascript">
+	function pesan (){
+	alert ("Memanggil Javascript Lewat body onload")	
+	}
+</script>
+<body onload=pesan() >
+	
+</body>
+</html>

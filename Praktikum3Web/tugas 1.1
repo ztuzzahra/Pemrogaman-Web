@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<script language="javascript">
+	function test(){
+		var angka1 = document.kirim.T1.value
+		if (angka1>=0&&angka1<=40)
+			document.kirim.T2.value="E"
+		else if (angka1>=41&&angka1<=55)
+			document.kirim.T2.value="D"
+		else if (angka1>-56&&angka1<-60)
+			document.kirim.T2.value="C"
+		else if (angka1>=61&&angka1<=65)
+			document.kirim.T2.value="BC"
+		else if (angka1>=66&&angka1<-70)
+			document.kirim.T2.value="B"
+		else if (angka1>=71&&angka1<=80)
+			document.kirim.T2.value="AB"
+		else if (angka1>=81&&angka1<=100)
+			document.kirim.T2.value-"A"
+		else if (angka1<=101)
+			document.kirim.T2.value-"nilai tidak valid"
+		
+	}
+</script>
+<body>
+	<form method="POST" name="kirim">
+		<p> Bil <input type="text" name="T1" size="15"> merupakan Bil :
+				<input type="text" name="T2" size="20">
+		</p>
+		<p> 	<input type="button" name="button1" size="15" onclick=test() value="klik"></p>
+
+	</form>
+</body>
+</html>

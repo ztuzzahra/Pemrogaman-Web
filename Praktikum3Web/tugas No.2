@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zabrina Tuzzahra</title>
+</head>
+<script text="text/javascript">
+
+	function Pertambahan(){
+	  var a=eval(document.kirim.a.value);
+      var b=eval(document.kirim.b.value);
+      var c=a+b;
+      document.kirim.c.value=c; 
+	}
+</script>
+<script text="text/javascript">
+	function Pengurangan(){
+	  var a=eval(document.kirim.a.value);
+      var b=eval(document.kirim.b.value);
+      var c=a-b;
+      document.kirim.c.value=c;
+	}
+</script>
+<script text="text/javascript">
+	function Perkalian(){
+	  var a=eval(document.kirim.a.value);
+      var b=eval(document.kirim.b.value);
+      var c=a*b;
+      document.kirim.c.value=c;
+	}
+</script>
+<script text="text/javascript">
+	function Pembagian(){
+	  var a=eval(document.kirim.a.value);
+      var b=eval(document.kirim.b.value);
+      var c=a/b;
+      document.kirim.c.value=c;
+	}	
+</script>
+<body>
+
+	<form method="POST" name="kirim">
+	<p> Masukkan Angka 1 <input type="Text" id="a" name="a" size="15"> </p>
+<p> Masukkan Angka 2 <input type="Text" id="b" name="b" size="15"> </p>
+<p> Hasil <input type="Text" id="c" name="c" size="15"></p>
+
+<input type="button" name="button1" value="Pertambahan" onclick="Pertambahan()">
+<input type="button" name="button2" value="Pengurangan" onclick="Pengurangan()">
+<input type="button" name="button3" value="Perkalian" onclick="Perkalian()">
+<input type="button" name="button4" value="Pembagian" onclick="Pembagian()">		
+
+	</form>
+
+</body>
+</html>
