@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		$("document").ready(function(){
+
+		$(".fadeout").click(function(){
+		$("#kotak").fadeOut("slow");		
+		});
+
+		$(".fadein").click(function(){
+		$("#kotak").fadeIn("slow");		
+		});
+
+		$(".fadeto3").click(function(){
+		$("#kotak").fadeTo("slow",0.3);		
+		});
+
+		});
+	</script>
+
+	<style type="text/css">
+		#kotak{
+			width: 250px;
+			height: 180px;
+			background: yellow;
+			border: 2px solid black;
+		}
+	</style>
+
+	<title> efek fade in, fade out, fade to </title>
+</head>
+<body>
+<div id="kotak"></div>
+<button class="fadeout"> fade out </button>
+<button class="fadein"> fade in </button>
+<button class="fadeto3"> fade to 0.3</button>
+</body>
+</html>

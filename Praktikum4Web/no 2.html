@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jQuery-3.4.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(".kotak").ready(function(){$("#ganti").addClass("warna")});	
+$(".kotak").dblclick(function(){$("#ganti").addClass("warna1");});
+
+$(".kotak1").ready(function(){$("#ganti1").addClass("warna")});	
+$(".kotak1").dblclick(function(){$("#ganti1").addClass("warna1");});
+
+$(".kotak2").ready(function(){$("#ganti2").addClass("warna")});	
+$(".kotak2").dblclick(function(){$("#ganti2").addClass("warna1");});
+
+$(".kotak3").ready(function(){$("#ganti3").addClass("warna")});	
+$(".kotak3").dblclick(function(){$("#ganti3").addClass("warna1");});
+}); 
+</script>	
+<style type="text/css">
+	.warna {
+		width: 50px;
+		height: 50px;
+		background-color: yellow;
+		float: left;
+		margin: 18px;
+	}
+	.warna1 {
+		background-color: red;
+	}
+</style>	
+
+
+</head>
+<body>
+	<p> klik 2x pada setiap kotak, maka akan berubah warna  </p>
+<div id="ganti" class="kotak"></div>
+
+<div id="ganti1" class="kotak1"></div>
+
+<div id="ganti2" class="kotak2"></div>
+
+<div id="ganti3" class="kotak3"></div>
+</body>
+</html>

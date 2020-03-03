@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jQuery-3.4.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#daftar").addClass("merahkuning");});</script>
+	<style type="text/css">
+		.merahkuning{
+			color: orange;
+			font-weight: bold;
+			background-color: green;
+			padding: 3px;
+		}
+	</style>
+</head>
+<body>
+<div>
+<p>paragraph pertama</p>	
+</div>
+<div>
+<ul id="daftar">
+<li>item1</li>
+<li>item2</li>	
+<li>item3</li>
+</ul>	
+</div>
+</body>
+</html>
