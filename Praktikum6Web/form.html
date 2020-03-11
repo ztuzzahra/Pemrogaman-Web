@@ -1,0 +1,53 @@
+<?php 
+include = "koneksi.php";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Login</title>
+</head>
+<body>
+	<CENTER>
+	<h3> Selamat Datang </h1>
+	<form action="" method="POST">
+		<table>
+			<tr>
+				<td> Nama : </td>
+				<td><input type="text" name="nama" onkeyup="Isi_Otomatis()"></td>
+			</tr>
+
+			<tr>
+				<td> Email :</td>
+				<td><input type="text" name="email" onkeyup="Isi_Otomatis()"></td>
+			</tr>
+
+			<tr>
+				<td>Isi :</td>
+				<td><input type="text" name="isi" onkeyup="Isi_Otomatis()"></td>
+			</tr>
+
+			<tr>
+				<td>
+					<button type="submit" value="simpan">simpan</button>
+				</td>
+			</tr>
+		</table>
+	</form>	
+	</CENTER>
+</body>
+</html>
+<?php 
+if (isset ($_POST['nama'])) {
+	$nama = $_POST['nama'];
+	$email = $_POST['email'];
+	$isi = $_POST['isi'];
+
+	$sql = "INSERT INTO Buku_Tamu (Nama, Email, isi)
+		VALUES ('$nama','$email','$isi')";
+	$sql = mysqli_query($conn, $sql);
+	}
+
+
+	# 
+}
+?>
