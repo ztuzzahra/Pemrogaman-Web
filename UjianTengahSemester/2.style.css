@@ -1,0 +1,89 @@
+/* header bawah*/
+.wrap{
+	background-image: url(33.jpg);
+	width: 1500px;
+	margin: 11px auto;
+}
+
+/*bagian header atas*/
+.wrap .header{
+	background-image: url(33.jpg);
+	/*height: 50px;*/
+	padding: 5px 30px 10px;
+	color: black;
+}
+
+/*bagian menu*/
+.wrap .menu{
+	background-image: url(2.jpg);
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background:white;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 400px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background:black;
+	float: left;	
+	width: 12%;
+	height: 93%;
+}
+/*bagian tombol*/
+.leftlinks {
+	border:1px solid #22476C; padding: 5px;
+	margin: 5px;
+	text-align: middle; background-color: #336699; width: 150px;
+}
+
+.leftlinks a{
+	display: block; margin: 3px 0px;
+	border-top:1px solid #4C86C0; border-left: 1px solid #4C86C0;
+	border-right: 1px solid #22475C; border-bottom: 1px solid #22476C; padding: 4px 10px;
+	text-align: center; background-color: #336699;
+	color: #EDEDED; text-decoration: none;
+}
+
+.leftlinks a:link{
+	color: #EDEDED;
+}
+
+.leftlinks a:visited{
+	color: #EDEDED;
+}
+
+.leftlinks a:hover { display: black; margin: 3px 0px;
+border-top: 1px solid #22476C; border-left: 1px solid #22476C;
+border-bottom: 1px solid #4C86C0; border-right: 1px solid #4C86C0; padding: 5px 9px 3px 11px;
+text-align: center;background-color: #336699; color: #EED929; text-decoration: none;}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background-image: url(img.jpg);
+	float: left;
+	height: 93%;
+	width: 88%;	
+}
+
+.wrap .footer{
+	width: 100%;
+	padding: 9px;
+}
