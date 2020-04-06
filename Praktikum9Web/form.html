@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Login</title>
+	<style type="text/css">
+		body{
+			background-image:url(batik3.jpg);
+			background-repeat:no-repeat;
+			background-position:center center ;
+			font-style: Comic Sains MS;
+			font-size: 20px ;
+			color: white;
+			margin-top: 2cm;
+			margin-right: 2cm;
+			margin-bottom: 2cm;
+			margin-left: 2cm;
+		}
+	</style>
+</head>
+<body>
+	<CENTER><h2 id="body">Selamat Datang</h2>
+	<form action="simpankontak.php" method="POST">
+		<table width="500" align="center" cellpadding="2" cellspacing="2">
+			<tr>
+			<td width="200"> Nama :</td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td width="150"> Jenis Kelamin : </td>
+			<td>
+				<input type="radio" name="sex" value="L"> Laki-Laki
+				<br>
+				<input type="radio" name="sex" value="P"> Perempuan 
+			</td>
+		</tr>
+		<tr>
+			<td width="200"> Nomer :</td>
+			<td><input type="text" name="nomer"></td>
+		</tr>
+		<tr>
+			<td width="200"> Email :</td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td width="200"> Alamat :</td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td width="200"> Kota :</td>
+			<td>
+				<select name="kota">
+				<option value="sby">Surabya</option>
+				<option value="sdj">Sidoarjo</option>
+				<option value="mlg">Malang</option>
+				<option value="tbn">Tuban</option>
+				<option value="smg">Semarang</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="200"> Pesan :</td>
+			<td><input type="text" name="pesan"></td>
+		</tr>
+		<tr>
+			<td>
+				<button type="submit"> SIMPAN </button>
+			</td>
+		</tr>
+		</table>
+	</form>	
+	</CENTER>
+</body>
+</html>
+
