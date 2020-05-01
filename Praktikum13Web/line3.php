@@ -3,10 +3,9 @@ include('koneksi.php');
 $negara = mysqli_query($koneksi,"select * from covid_19");
 while($row = mysqli_fetch_array($negara)){
 	$nama_negara[] = $row['negara'];
-	
-	$query = mysqli_query($koneksi,"select sum(total) as 'Total Cases' from total_cases where id_negara='".$row['id_negara']."'");
+	$query = mysqli_query($koneksi,"select sum(totaldeaths) as 'total_deaths' from total_deaths where id_negara='".$row['id_negara']."'");
 	$row = $query->fetch_array();
-	$jumlah_kasus[] = $row['Total Cases'];
+	$jumlah_kasus[] = $row['total_deaths'];
 }
 ?>
 <!DOCTYPE html>
@@ -24,11 +23,11 @@ while($row = mysqli_fetch_array($negara)){
 	<script>
 		var ctx = document.getElementById("myChart").getContext('2d');
 		var myChart = new Chart(ctx, {
-			type: 'pie',
+			type: 'line',
 			data: {
 				labels: <?php echo json_encode($nama_negara); ?>,
 				datasets: [{
-					label: 'Grafik Total Cases',
+					label: 'Grafik Total Deaths',
 					data: <?php echo json_encode($jumlah_kasus); ?>,
 					backgroundColor: 'rgba(255, 99, 132, 0.2)',
 					borderColor: 'rgba(255,99,132,1)',
